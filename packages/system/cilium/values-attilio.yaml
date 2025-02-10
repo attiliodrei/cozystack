@@ -1,0 +1,7 @@
+cilium:
+  cgroup:
+    autoMount:
+      enabled: false
+    hostRoot: /sys/fs/cgroup
+  k8sServiceHost: k8s-cp-vm-1-cl-02.cluster.local
+  k8sServicePort: 6443
