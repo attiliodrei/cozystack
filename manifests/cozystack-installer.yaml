@@ -71,9 +71,9 @@ spec:
         image: "ghcr.io/aenix-io/cozystack/cozystack:v0.25.0"
         env:
         - name: KUBERNETES_SERVICE_HOST
-          value: localhost
+          value: k8s-cp-vm-1-cl-02.cluster.local
         - name: KUBERNETES_SERVICE_PORT
-          value: "7445"
+          value: "6443"
         - name: K8S_AWAIT_ELECTION_ENABLED
           value: "1"
         - name: K8S_AWAIT_ELECTION_NAME
