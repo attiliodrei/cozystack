@@ -22,7 +22,7 @@ releases:
   dependsOn: []
   valuesFiles:
   - values.yaml
-  - values-talos.yaml
+  - values-attilio.yaml
   values:
     cilium:
       enableIPv4Masquerade: true
